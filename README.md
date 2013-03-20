@@ -1,40 +1,6 @@
 How to Do Stuff
 ===============
 
-# OSX 10.8.x
+This is intended to be a repo of how to literally make things work for different environments. For now different operating systems are separated into different files.
 
-## Package Management
-
-### Homebrew
-
-`ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"`
-
-## Python
-
-### PIP
-
-`sudo easy_install pip`
-
-### Virtual Environments
-
-    sudo pip install virtualenv
-
-    sudo pip install virtualenvwrapper
-
-    cd $HOME
-
-    mkdir .virtualenvs
-
-Add `source /usr/local/bin/virtualenvwrapper.sh` to your .bash_profile file
-
-## Postgres
-
-### Via Homebrew
-
-    brew install postgres
-
-If brew fails to link you may have to change permission on some files. Run `brew doctor` to see what failed. If brew couldn't write to a folder run `sudo chown -R $USER /path/to/folder/`. Rerun the link process for Postgres, `brew link postgres`. Repeat as necessary.
-
-    initdb /usr/local/var/postgres -E utf8
-
-Add `export PATH=/usr/local/bin:$PATH` to your .bash_profile file
+* [**OSX 10.8.x**](https://github.com/justinwinslow/How-to-Do-Stuff/blob/master/OSX_10.8.x.md)
