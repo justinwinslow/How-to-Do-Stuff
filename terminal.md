@@ -30,23 +30,23 @@ http://www.linuxgazette.net/issue65/padala.html
 
 #### Colors
 
-a  black
-b  red
-c  green
-d  brown
-e  blue
-f  magenta
-g  cyan
-h  light grey
-A  bold black, usually shows up as dark grey
-B  bold red
-C  bold green
-D  bold brown, usually shows up as yellow
-E  bold blue
-F  bold magenta
-G  bold cyan
-H  bold light grey; looks like bright white
-x  default foreground or background
+* a = black
+* b = red
+* c = green
+* d = brown
+* e = blue
+* f = magenta
+* g = cyan
+* h = light grey
+* A = bold black, usually shows up as dark grey
+* B = bold red
+* C = bold green
+* D = bold brown, usually shows up as yellow
+* E = bold blue
+* F = bold magenta
+* G = bold cyan
+* H = bold light grey; looks like bright white
+* x = default foreground or background
 
 #### Pair definitions
 
