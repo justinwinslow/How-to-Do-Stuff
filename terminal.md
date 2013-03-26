@@ -1,11 +1,11 @@
 Terminal
 ========
 
-# Bash
+## Bash
 
-## Colors
+### Colors
 
-### tput 8 color
+#### tput 8 color
 
 * 0 – Black
 * 1 – Red
@@ -16,19 +16,19 @@ Terminal
 * 6 – Cyan
 * 7 – White
 
-### tput 256 colors
+#### tput 256 colors
 
-### Basic Terminal 8 color
+#### Basic Terminal 8 color
 http://www.linuxgazette.net/issue65/padala.html
 
-### LS colors
+#### LS colors
 
     # Enable colors
     export CLICOLOR=1
     # Define file directory colors
     export LSCOLORS=Gxfxcxdxbxegedabagacad
 
-#### Colors
+##### Colors
 
 * a = black
 * b = red
@@ -48,7 +48,7 @@ http://www.linuxgazette.net/issue65/padala.html
 * H = bold light grey; looks like bright white
 * x = default foreground or background
 
-#### Pair definitions
+##### Pair definitions
 
 1. directory
 2. symbolic link
