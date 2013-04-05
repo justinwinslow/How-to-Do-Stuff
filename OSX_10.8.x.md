@@ -35,3 +35,5 @@ If brew fails to link you may have to change permission on some files. Run `brew
     initdb /usr/local/var/postgres -E utf8
 
 Add `export PATH=/usr/local/bin:$PATH` to your .bash_profile file
+
+Run Postgres Server: `postgres -D /usr/local/var/postgres/`
